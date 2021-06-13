@@ -1,6 +1,2 @@
-# Olá, Mundo!
- Primeiro repositório versionado, do curso de Git e GitHub.
-
- Repositório criado durante uma aula ao vivo!
-
-Essa linha eu adicionei diretamente no site! QUE IMPRESSIONANTE!
+# Meus netos!
+Trabalho com feedback de minha filha e meus netos, e outros que se encaixem.
