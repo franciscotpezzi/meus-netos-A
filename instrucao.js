@@ -24,3 +24,13 @@ function comprimento(){
         audioElement.play()
     }
 }
+
+function dino(){
+    let audioElement = new Audio('dino01.mp3')
+        audioElement.play()
+}
+
+function bear_gomme(){
+    let audioElement = new Audio('Eu sou O Gummy Bear.mp3')
+        audioElement.play()
+}

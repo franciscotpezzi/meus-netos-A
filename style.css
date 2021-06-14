@@ -1,3 +1,31 @@
 body{
+    position: absolute;
     background-color: darkkhaki;
+}
+img#mao200{
+    position: relative;
+    left: 10%;
+}
+img#dino01{
+    position: relative;
+    top: 33%;
+    left: 53%;
+    border-radius: 25px;
+}
+
+img#gammebear{
+    position: relative;
+    left: 73%;
+}
+
+img#David200{
+    position: relative;
+    left: 130%;
+    top: 0%;
+}
+
+img#Pedro200{
+    position: relative;
+    left: 150%;
+    top: 0%;
 }
