@@ -26,7 +26,7 @@ function comprimento(){
 }
 
 function dino(){
-    let audioElement = new Audio('dino01.mp3')
+    let audioElement = new Audio('dino.ogg')
         audioElement.play()
 }
 
