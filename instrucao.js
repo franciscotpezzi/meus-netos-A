@@ -31,6 +31,6 @@ function dino(){
 }
 
 function bear(){
-    let audioElement = new Audio('EusouOGummyBear.mp3')
+    let audioElement = new Audio('EusouOGummyBear.ogg')
         audioElement.play()
 }
