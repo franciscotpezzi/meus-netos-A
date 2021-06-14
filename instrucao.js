@@ -30,7 +30,7 @@ function dino(){
         audioElement.play()
 }
 
-function bear_gomme(){
+function bear(){
     let audioElement = new Audio('Eu sou O Gummy Bear.mp3')
         audioElement.play()
 }
