@@ -1,31 +1,41 @@
 body{
-    position: absolute;
+    position: relative;
     background-color: darkkhaki;
 }
 img#mao200{
     position: relative;
     left: 10%;
+    top: 10pt;
 }
 img#dino01{
     position: relative;
-    top: 33%;
-    left: 53%;
+    top: -140pt;
+    left: 27%;
     border-radius: 25px;
 }
 
 img#gammebear{
     position: relative;
-    left: 73%;
+    top: -260pt;
+    left: 33%;
+    border-radius: 25px;
 }
 
 img#David200{
     position: relative;
-    left: 130%;
-    top: 0%;
+    left: 60%;
+    top: -70%;
 }
 
 img#Pedro200{
     position: relative;
-    left: 150%;
-    top: 0%;
+    left: 80%;
+    top:   -235pt;
+}
+h2{
+    position:relative;
+    left: 42%;
+    top: -155pt;
+    font-size: 30pt;
+    width: 300px;
 }

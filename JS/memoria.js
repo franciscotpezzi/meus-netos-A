@@ -1,116 +1,63 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jogo da Memória</title>
-    <style>
-        body {
-            background-color: rgb(185, 83, 83);
-        }
-        input {
-            position: relative;
-            left: 34%;
-            width: 150pt;
-            height: 100pt;
-            font-size: 50pt;
-            border-radius: 25px;
-        }
-        h1,p{
-            text-align: center;
-        }
-        #grade{
-            display: flex;
-            flex-wrap: wrap;
-            width: 831px;
-            margin: auto;
-            background-color: blueviolet;
-        }
-        img{
-            width: 200px;
-            padding: 3.5px;
-        }
-        #grade{
-            font-size: 50px;
-            color: white;
-        }
-    </style>
-
-</head>
-<body onload="criarGrade()">
-    <h1>Jogo da Memória</h1>
-    <input type="button" value="&#X1F68C" onclick="tocar1()">
-    <input type="button" value="&#X1F43B" onclick="tocar2()">
-    <a href="index.html"><input type="button" value="Voltar"></a>
-    <p>Pontos: <span id="pontos"></span> </p>
-    <div id="grade" ></div>
-
-    
-
-
-<script>
 function tocar1() {
-    let audioElement = new Audio('The Wheels On The Bus - The Green Orbs.mp3')
+    let audioElement = new Audio('../midias/The Wheels On The Bus - The Green Orbs.mp3')
         audioElement.play()
 }
 function tocar2() {
-    let audioElement = new Audio('Bear.mp3')
+    let audioElement = new Audio('../midias/Bear02.mp3')
         audioElement.play()
 }
 function tocar3() {
-    let audioElement = new Audio('dino.ogg')
+    let audioElement = new Audio('../midias/dino.ogg')
     audioElement.play()
 }
     const baralho = [
         { 
             nome: "elefante",
-            img:"elefantes200.jpg"
+            img:"../imagens/elefantes200.jpg"
         },
         { 
             nome: "esquilo",
-            img:"esquilo200.jpg"
+            img:"../imagens/esquilo200.jpg"
         },
         { 
             nome: "pintada",
-            img:"pintada200.jpg"
+            img:"../imagens/pintada200.jpg"
         },
         { 
             nome: "simios",
-            img:"simios200.jpg"
+            img:"../imagens/simios200.jpg"
         },
         {
             nome: "tigres",
-            img:"tigres200.jpg"
+            img:"../imagens/tigres200.jpg"
         },
         {
             nome: "urso",
-            img:"urso200.jpg"
+            img:"../imagens/urso200.jpg"
         },
         { 
             nome: "elefante",
-            img:"elefantes200.jpg"
+            img:"../imagens/elefantes200.jpg"
         },
         { 
             nome: "esquilo",
-            img:"esquilo200.jpg"
+            img:"../imagens/esquilo200.jpg"
         },
         { 
             nome: "pintada",
-            img:"pintada200.jpg"
+            img:"../imagens/pintada200.jpg"
         },
         {
             nome: "urso",
-            img:"urso200.jpg"
+            img:"../imagens/urso200.jpg"
         },
         { 
             nome: "simios",
-            img:"simios200.jpg"
+            img:"../imagens/simios200.jpg"
         },
         {
             nome: "tigres",
-            img:"tigres200.jpg"
+            img:"../imagens/tigres200.jpg"
         }
     ];
 
@@ -132,7 +79,7 @@ function tocar3() {
             let carta = document.createElement("img");
             carta.id = i;
             carta.name = baralho[i].nome;
-            carta.src = "carta200.jpg"
+            carta.src = "../imagens/carta200.jpg"
             carta.addEventListener("click", escolherCarta);
             grade.appendChild(carta);
 
@@ -148,15 +95,15 @@ function tocar3() {
             let carta1 = escolhidas[0];
             let carta2 = escolhidas[1];
             if(carta1.name == carta2.name){
-                carta1.src = "verde200.jpg";
-                carta2.src = "verde200.jpg";
+                carta1.src = "../imagens/verde200.jpg";
+                carta2.src = "../imagens/verde200.jpg";
                 carta1.removeEventListener("click", escolherCarta);
                 carta2.removeEventListener("click",escolherCarta);
                 ponto++;
                 pontuacao.innerText= ponto;
             }else{
-                carta1.src = "carta200.jpg";
-                carta2.src = "carta200.jpg";
+                carta1.src = "../imagens/carta200.jpg";
+                carta2.src = "../imagens/carta200.jpg";
             }
             if(ponto == baralho.length / 2){
                 grade.innerHTML=" ";
@@ -167,8 +114,3 @@ function tocar3() {
         }, 1000);
         }
     }
-
-
-</script>
-</body>
-</html>

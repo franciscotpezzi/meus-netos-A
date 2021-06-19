@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(185, 83, 83);
+}
+input {
+    position: relative;
+    left: 28%;
+    width: 150pt;
+    height: 100pt;
+    font-size: 50pt;
+    border-radius: 25px;
+}
+h1,p{
+    text-align: center;
+    font-size:30pt:
+}
+#grade{
+    display: flex;
+    flex-wrap: wrap;
+    width: 831px;
+    margin: auto;
+    background-color: blueviolet;
+}
+img{
+    width: 200px;
+    padding: 3.5px;
+}
+#grade{
+    font-size: 50px;
+    color: white;
+}
