@@ -12,7 +12,7 @@ function comprimento(){
         audioElement.play()
     }if(hora > 12 && hora <= 18) {
         msg.innerHTML = `Boa tarde! são ${hora}:${min} horas`
-        let audioElement = new Audio('boatarde001.ogg')
+        let audioElement = new Audio('../midias/boatarde001.mp3')
         audioElement.play()
     }if(hora > 18 && hora <= 20) {
         msg.innerHTML = `Bom noite! são ${hora}:${min} horas`
@@ -26,7 +26,7 @@ function comprimento(){
 }
 
 function dino(){
-    let audioElement = new Audio('dino.ogg')
+    let audioElement = new Audio('../midias/dino.ogg')
         audioElement.play()
 }
 
