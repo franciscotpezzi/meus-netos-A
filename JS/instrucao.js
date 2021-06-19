@@ -3,7 +3,7 @@ let data = new Date();
 let hora = data.getHours();
 let min = data.getMinutes();
 
-hora = 21
+//hora = 21
 
 function comprimento(){
     if (hora >= 5 && hora <= 12) {
