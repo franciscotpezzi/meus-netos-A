@@ -1,5 +1,5 @@
 function pedro500(){
-    let audioElement = new Audio('../midias/Sunny Day - Reed Mathis.mp3')
+    let audioElement = new Audio('../midias/CasteloAreia.ogg')
     audioElement.play()   
 }
 
