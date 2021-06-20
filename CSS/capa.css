@@ -1,31 +1,32 @@
 
 body{
+    position: relative;
     background-image: radial-gradient(rgb(238, 255, 0), blue);
 }
 
 img#pedro500{
-    position:absolute;
-    left: 10%;
-    top: 10%;
+    position: absolute;
+    left: 5%;
+    top: 25pt;
 }
 h1#pedro{
     background-color: rgb(146, 216, 80);
     border-radius: 25px;
     position: absolute;
-    top: 45%;
+    top: 200pt;
     left: 35%;
 }
 
 img#david500{
     position: absolute;
-    top: 10%;
-    left: 55%;
+    top: 25pt;
+    left: 60%;
 }
 
 h1#david{
     background-color: rgb(146, 216, 80);
     border-radius: 25px;
     position: absolute;
-    left: 83%;
-    top: 45%;
+    left: 90%;
+    top: 200pt;
 }
