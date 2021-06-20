@@ -1,9 +1,9 @@
 function pedro500() {
-    let audioElement = new Audio('../midias/CasteloAreia.ogg')
+    let audioElement = new Audio('../midias/pedroSaf.mp3')
     audioElement.play()   
 }
 
 function david500() {
-    let audioElement = new Audio('../midias/The Wheels On The Bus - The Green Orbs.mp3')
+    let audioElement = new Audio('../midias/daviSaf.mp3')
         audioElement.play()
 }
