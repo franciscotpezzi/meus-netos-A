@@ -1,32 +1,33 @@
 
 body{
-    position: relative;
-    background-image: radial-gradient(rgb(238, 255, 0), blue);
+
+    background-color: bisque;
 }
 
-img#pedro500{
+picture,#pedro{
     position: absolute;
-    left: 5%;
-    top: 25pt;
+    left: 10%;
+    top: 20%;
 }
-h1#pedro{
+picture,h1#pedro{
     background-color: rgb(146, 216, 80);
     border-radius: 25px;
     position: absolute;
-    top: 200pt;
-    left: 35%;
-}
-
-img#david500{
-    position: absolute;
-    top: 25pt;
+    margin-top: 25%;
     left: 60%;
+
 }
 
-h1#david{
+picture#david{
+    position: absolute;
+    top: 20%;
+    left: 55%;
+}
+
+picture,h1#david{
     background-color: rgb(146, 216, 80);
     border-radius: 25px;
     position: absolute;
-    left: 90%;
-    top: 200pt;
+    left: 60%;
+    margin-top: -90pt;
 }

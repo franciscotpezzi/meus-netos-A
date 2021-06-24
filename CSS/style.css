@@ -4,20 +4,24 @@ body{
 }
 img#mao200{
     position: relative;
-    left: 10%;
+    left: 5%;
     top: 10pt;
 }
+picture#dino{
+    position: absolute;
+    margin: -10% 25% 0% 25%;
+}
+
 img#dino01{
-    position: relative;
-    top: -140pt;
-    left: 27%;
     border-radius: 25px;
+
 }
 
 img#gammebear{
     position: relative;
-    top: -260pt;
-    left: 33%;
+    top: -200pt;
+    right: 25%;
+    left: 25%;
     border-radius: 25px;
 }
 
@@ -33,9 +37,9 @@ img#Pedro200{
     top:   -235pt;
 }
 h2{
-    position:relative;
-    left: 42%;
-    top: -155pt;
+    position:absolute;
+    left: 40%;
+    top: -5%;
     font-size: 30pt;
     width: 300px;
 }
