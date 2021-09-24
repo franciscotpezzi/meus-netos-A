@@ -107,7 +107,9 @@ function tocar3() {
             }
             if(ponto == baralho.length / 2){
                 grade.innerHTML=" ";
-                tocar3();
+                let video = document.getElementById("newvideo");
+                video.src="../midias/pica-pau001.mp4".autoplay();   
+                
                 criarGrade();
             }
             escolhidas = [];

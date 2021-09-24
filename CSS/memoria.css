@@ -16,7 +16,7 @@ h1,p{
 #grade{
     display: flex;
     flex-wrap: wrap;
-    width: 631px;
+    width: 630px;
     margin: auto;
     background-color: blueviolet;
 }
